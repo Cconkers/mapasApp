@@ -17,7 +17,7 @@ export class MenuComponent {
       nombre: 'FullScreen',
     },
     {
-      ruta: '/mapas/zoom-range',
+      ruta: '/mapas/zoomrange',
       nombre: 'Zoom Range',
     },
     {

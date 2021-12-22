@@ -2,5 +2,6 @@
   <li
   *ngFor="let item of menuItem"
   [routerLink]="[item.ruta]"
-  class="list-group-item">Menu Opt1</li>
+  routerLinkActive="item"
+  class="btn btn-primary mb-2 list-group-item">{{item.nombre}}</li>
 </ul>
